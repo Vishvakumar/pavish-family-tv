@@ -1,0 +1,41 @@
+name: Check Stream Health
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'   # Every Sunday at 06:00 UTC
+  push:
+    paths:
+      - 'playlist.m3u'    # Re-check whenever the playlist changes
+  workflow_dispatch:       # Allow manual runs from the Actions tab
+
+jobs:
+  check-streams:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # Needed to commit stream-status.md back to the repo
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run stream health check
+        run: python scripts/check_streams.py playlist.m3u > stream-status.md
+        # Script exits 1 if <50% online — treat that as a warning, not a hard failure
+        continue-on-error: true
+
+      - name: Write summary to job page
+        run: cat stream-status.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit updated stream-status.md
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stream-status.md
+          git diff --cached --quiet || git commit -m "chore: update stream health status [skip ci]"
+          git push
