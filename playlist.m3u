@@ -52,7 +52,7 @@ https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg0
 http://149.71.34.166:8000/play/a06i/index.m3u8
 
 #EXTINF:-1 tvg-id="KalaignarTV.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kalaignar_TV_Logo.png/240px-Kalaignar_TV_Logo.png" group-title="Tamil",Kalaignar TV
-http://103.72.101.252:8080/live/1209.m3u8
+https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JayaTV.in@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jaya_TV_Logo.png/240px-Jaya_TV_Logo.png" group-title="Tamil",Jaya TV HD
 http://103.72.101.252:8080/live/419.m3u8
@@ -67,16 +67,16 @@ http://103.72.101.252:8080/live/429.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
 
 #EXTINF:-1 tvg-id="IsaiAruvi.in@SD" tvg-logo="" group-title="Tamil",Isai Aruvi
-http://ptuf.ridsys.in/riptv/live/KALAIGNAR_ISAI_ARUVI/index.m3u8
+https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DDTamil.in@SD" tvg-logo="" group-title="Tamil",DD Tamil
-https://cdn-2.pishow.tv/live/26/master.m3u8
+https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
 
 #EXTINF:-1 tvg-id="Asianet.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Asianet_logo.png/240px-Asianet_logo.png" group-title="Malayalam",Asianet
 https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8
 
 #EXTINF:-1 tvg-id="MazhavilManorama.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mazhavil_Manorama_logo.png/240px-Mazhavil_Manorama_logo.png" group-title="Malayalam",Mazhavil Manorama
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8
+https://cdn-3.pishow.tv/live/1479/master.m3u8
 
 #EXTINF:-1 tvg-id="FlowersTV.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flowers_TV_Logo.png/240px-Flowers_TV_Logo.png" group-title="Malayalam",Flowers TV
 http://103.72.101.252:8080/live/634.m3u8
@@ -85,10 +85,10 @@ http://103.72.101.252:8080/live/634.m3u8
 https://ddash74r36xqp.cloudfront.net/master.m3u8
 
 #EXTINF:-1 tvg-id="KaumudyTV.in@SD" tvg-logo="" group-title="Malayalam",Kaumudy TV
-https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
+https://cdn-3.pishow.tv/live/1237/master.m3u8
 
 #EXTINF:-1 tvg-id="JanamTV.in@SD" tvg-logo="" group-title="Malayalam",Janam TV
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8
+https://cdn-3.pishow.tv/live/1466/master.m3u8
 
 #EXTINF:-1 tvg-id="AsianetNews.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Asianet_logo.png/240px-Asianet_logo.png" group-title="Malayalam",Asianet News
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
@@ -97,7 +97,7 @@ https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-a
 https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8
 
 #EXTINF:-1 tvg-id="MathrubhumiNews.in@SD" tvg-logo="" group-title="Malayalam",Mathrubhumi News
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8
+https://mathrubhumicdn.vidgyor.com/mathrubhumi-origin/liveabr/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DDMalayalam.in@SD" tvg-logo="" group-title="Malayalam",DD Malayalam
 https://cdn-3.pishow.tv/live/27/master.m3u8
@@ -112,7 +112,7 @@ https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/i
 http://149.71.34.166:8000/play/a00l/index.m3u8
 
 #EXTINF:-1 tvg-id="NickHDPlus.in@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Nick_logo.svg/240px-Nick_logo.svg.png" group-title="Kids",Nick HD+
-http://103.72.101.252:8080/live/1226.m3u8
+http://116.90.120.157:8000/play/a0i3/index.m3u8
 
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
@@ -121,7 +121,7 @@ http://tvsen7.aynascope.net/nicklodean/index.m3u8
 http://40.160.24.55/NICK_JR/index.m3u8
 
 #EXTINF:-1 tvg-id="9XM.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/9XM_Logo.png/240px-9XM_Logo.png" group-title="Music",9XM
-https://9xjio.wiseplayout.com/9XM/master.m3u8
+https://epiconvh.akamaized.net/live/9XM/master.m3u8
 
 #EXTINF:-1 tvg-id="MTV.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/MTV_2021_logo.svg/240px-MTV_2021_logo.svg.png" group-title="Music",MTV India
 http://103.72.101.252:8080/live/248.m3u8
@@ -132,20 +132,26 @@ https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-id="MusicIndia.in@SD" tvg-logo="" group-title="Music",Music India
 https://trs1.aynaott.com/MusicIndia/index.m3u8
 
+#EXTINF:-1 tvg-id="7SMusic.in@SD" tvg-logo="https://i.imgur.com/zDiIhdN.png" group-title="Music",7S Music
+https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8
+
+#EXTINF:-1 tvg-id="AaryaaTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png" group-title="Music",Aaryaa TV
+https://stream.ottlive.co.in/aryatvtamil/index.m3u8
+
 #EXTINF:-1 tvg-id="NDTV24x7.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/NDTV_logo.svg/240px-NDTV_logo.svg.png" group-title="News",NDTV 24x7
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 
 #EXTINF:-1 tvg-id="NDTVIndia.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/NDTV_logo.svg/240px-NDTV_logo.svg.png" group-title="News",NDTV India
-http://103.213.31.109:90/StarUtsavMovies/playlist.m3u8
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 
 #EXTINF:-1 tvg-id="IndiaToday.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/India_Today_logo.png/240px-India_Today_logo.png" group-title="News",India Today
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AajTak.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aaj_Tak_logo.svg/240px-Aaj_Tak_logo.svg.png" group-title="News",Aaj Tak
-http://103.213.31.109:90/AajtakHD/playlist.m3u8
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8
 
 #EXTINF:-1 tvg-id="ABPNews.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_News_logo.png/240px-ABP_News_logo.png" group-title="News",ABP News
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
 
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
