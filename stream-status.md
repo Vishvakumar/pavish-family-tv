@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**36/55 streams online** — checked 2026-07-29 16:57 UTC
+**35/55 streams online** — checked 2026-08-02 06:59 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -13,7 +13,7 @@
 | Kids | CBBC HD | ❌ HTTP 403 |
 | Kids | CBeebies HD | ❌ HTTP 403 |
 | Kids | Disney Junior | ⏱️ TIMEOUT |
-| Kids | Nick HD+ | ✅ OK |
+| Kids | Nick HD+ | ⏱️ TIMEOUT |
 | Kids | Nick Jr. | ✅ OK |
 | Kids | Nickelodeon | ✅ OK |
 | Malayalam | Amrita TV | ✅ OK |
@@ -60,7 +60,7 @@
 | UK | ITV2 HD | ✅ OK |
 | UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (19)
+### Dead / unreachable streams (20)
 
 - **Asianet** (Favourites) — ❌ HTTP 403  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -76,6 +76,8 @@
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8`
 - **Disney Junior** (Kids) — ⏱️ TIMEOUT  
   `http://149.71.34.166:8000/play/a00l/index.m3u8`
+- **Nick HD+** (Kids) — ⏱️ TIMEOUT  
+  `http://116.90.120.157:8000/play/a0i3/index.m3u8`
 - **Asianet** (Malayalam) — ❌ HTTP 403  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **Flowers TV** (Malayalam) — ⏱️ TIMEOUT  
