@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**35/55 streams online** — checked 2026-08-09 06:20 UTC
+**34/55 streams online** — checked 2026-08-16 06:45 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -9,12 +9,12 @@
 | Favourites | BBC News | ✅ OK |
 | Favourites | BBC One HD | ❌ HTTP 403 |
 | Favourites | CBeebies HD | ❌ HTTP 403 |
-| Favourites | Star Vijay HD | ⏱️ TIMEOUT |
+| Favourites | Star Vijay HD | ❌ DEAD |
 | Kids | CBBC HD | ❌ HTTP 403 |
 | Kids | CBeebies HD | ❌ HTTP 403 |
-| Kids | Disney Junior | ⏱️ TIMEOUT |
+| Kids | Disney Junior | ❌ DEAD |
 | Kids | Nick HD+ | ⏱️ TIMEOUT |
-| Kids | Nick Jr. | ✅ OK |
+| Kids | Nick Jr. | ❌ HTTP 404 |
 | Kids | Nickelodeon | ✅ OK |
 | Malayalam | Amrita TV | ✅ OK |
 | Malayalam | Asianet | ❌ HTTP 403 |
@@ -47,7 +47,7 @@
 | Tamil | Jaya Max | ⏱️ TIMEOUT |
 | Tamil | Jaya TV HD | ⏱️ TIMEOUT |
 | Tamil | Kalaignar TV | ✅ OK |
-| Tamil | Star Vijay HD | ⏱️ TIMEOUT |
+| Tamil | Star Vijay HD | ❌ DEAD |
 | Tamil | Zee Tamil News | ✅ OK |
 | UK | BBC Four HD | ❌ HTTP 403 |
 | UK | BBC News | ✅ OK |
@@ -60,7 +60,7 @@
 | UK | ITV2 HD | ✅ OK |
 | UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (20)
+### Dead / unreachable streams (21)
 
 - **Asianet** (Favourites) — ❌ HTTP 403  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -68,16 +68,18 @@
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
 - **CBeebies HD** (Favourites) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8`
-- **Star Vijay HD** (Favourites) — ⏱️ TIMEOUT  
+- **Star Vijay HD** (Favourites) — ❌ DEAD  
   `http://149.71.34.166:8000/play/a06i/index.m3u8`
 - **CBBC HD** (Kids) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8`
 - **CBeebies HD** (Kids) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8`
-- **Disney Junior** (Kids) — ⏱️ TIMEOUT  
+- **Disney Junior** (Kids) — ❌ DEAD  
   `http://149.71.34.166:8000/play/a00l/index.m3u8`
 - **Nick HD+** (Kids) — ⏱️ TIMEOUT  
   `http://116.90.120.157:8000/play/a0i3/index.m3u8`
+- **Nick Jr.** (Kids) — ❌ HTTP 404  
+  `http://40.160.24.55/NICK_JR/index.m3u8`
 - **Asianet** (Malayalam) — ❌ HTTP 403  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **Flowers TV** (Malayalam) — ⏱️ TIMEOUT  
@@ -92,7 +94,7 @@
   `http://103.72.101.252:8080/live/420.m3u8`
 - **Jaya TV HD** (Tamil) — ⏱️ TIMEOUT  
   `http://103.72.101.252:8080/live/419.m3u8`
-- **Star Vijay HD** (Tamil) — ⏱️ TIMEOUT  
+- **Star Vijay HD** (Tamil) — ❌ DEAD  
   `http://149.71.34.166:8000/play/a06i/index.m3u8`
 - **BBC Four HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.m3u8`
