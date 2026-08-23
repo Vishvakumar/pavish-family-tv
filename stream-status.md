@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**34/55 streams online** — checked 2026-08-16 06:45 UTC
+**33/55 streams online** — checked 2026-08-23 06:47 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -13,7 +13,7 @@
 | Kids | CBBC HD | ❌ HTTP 403 |
 | Kids | CBeebies HD | ❌ HTTP 403 |
 | Kids | Disney Junior | ❌ DEAD |
-| Kids | Nick HD+ | ⏱️ TIMEOUT |
+| Kids | Nick HD+ | ✅ OK |
 | Kids | Nick Jr. | ❌ HTTP 404 |
 | Kids | Nickelodeon | ✅ OK |
 | Malayalam | Amrita TV | ✅ OK |
@@ -56,11 +56,11 @@
 | UK | BBC Two HD | ❌ HTTP 403 |
 | UK | Channel 5 | ✅ OK |
 | UK | GB News | ✅ OK |
-| UK | ITV1 | ✅ OK |
-| UK | ITV2 HD | ✅ OK |
+| UK | ITV1 | ⏱️ TIMEOUT |
+| UK | ITV2 HD | ⏱️ TIMEOUT |
 | UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (21)
+### Dead / unreachable streams (22)
 
 - **Asianet** (Favourites) — ❌ HTTP 403  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -76,8 +76,6 @@
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8`
 - **Disney Junior** (Kids) — ❌ DEAD  
   `http://149.71.34.166:8000/play/a00l/index.m3u8`
-- **Nick HD+** (Kids) — ⏱️ TIMEOUT  
-  `http://116.90.120.157:8000/play/a0i3/index.m3u8`
 - **Nick Jr.** (Kids) — ❌ HTTP 404  
   `http://40.160.24.55/NICK_JR/index.m3u8`
 - **Asianet** (Malayalam) — ❌ HTTP 403  
@@ -104,3 +102,7 @@
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.m3u8`
 - **BBC Two HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8`
+- **ITV1** (UK) — ⏱️ TIMEOUT  
+  `https://xemzi.short.gy/1000011`
+- **ITV2 HD** (UK) — ⏱️ TIMEOUT  
+  `https://xemzi.short.gy/1000012`
