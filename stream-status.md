@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**33/55 streams online** — checked 2026-08-23 06:47 UTC
+**33/55 streams online** — checked 2026-08-30 11:34 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -56,8 +56,8 @@
 | UK | BBC Two HD | ❌ HTTP 403 |
 | UK | Channel 5 | ✅ OK |
 | UK | GB News | ✅ OK |
-| UK | ITV1 | ⏱️ TIMEOUT |
-| UK | ITV2 HD | ⏱️ TIMEOUT |
+| UK | ITV1 | ❌ DEAD |
+| UK | ITV2 HD | ❌ DEAD |
 | UK | Sky News | ✅ OK |
 
 ### Dead / unreachable streams (22)
@@ -102,7 +102,7 @@
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.m3u8`
 - **BBC Two HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8`
-- **ITV1** (UK) — ⏱️ TIMEOUT  
+- **ITV1** (UK) — ❌ DEAD  
   `https://xemzi.short.gy/1000011`
-- **ITV2 HD** (UK) — ⏱️ TIMEOUT  
+- **ITV2 HD** (UK) — ❌ DEAD  
   `https://xemzi.short.gy/1000012`
