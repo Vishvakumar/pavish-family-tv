@@ -1,11 +1,11 @@
 ## Stream Health Report
 
-**24/55 streams online** — checked 2026-09-20 10:57 UTC
+**24/55 streams online** — checked 2026-09-27 11:43 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
 | Favourites | Al Jazeera English | ✅ OK |
-| Favourites | Asianet | ❌ HTTP 403 |
+| Favourites | Asianet | ❌ HTTP 404 |
 | Favourites | BBC News | ✅ OK |
 | Favourites | BBC One HD | ❌ HTTP 403 |
 | Favourites | CBeebies HD | ❌ HTTP 403 |
@@ -17,7 +17,7 @@
 | Kids | Nick Jr. | ❌ HTTP 404 |
 | Kids | Nickelodeon | ⏱️ TIMEOUT |
 | Malayalam | Amrita TV | ✅ OK |
-| Malayalam | Asianet | ❌ HTTP 403 |
+| Malayalam | Asianet | ❌ HTTP 404 |
 | Malayalam | Asianet News | ✅ OK |
 | Malayalam | DD Malayalam | ❌ HTTP 404 |
 | Malayalam | Flowers TV | ⏱️ TIMEOUT |
@@ -62,7 +62,7 @@
 
 ### Dead / unreachable streams (31)
 
-- **Asianet** (Favourites) — ❌ HTTP 403  
+- **Asianet** (Favourites) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **BBC One HD** (Favourites) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
@@ -82,7 +82,7 @@
   `http://40.160.24.55/NICK_JR/index.m3u8`
 - **Nickelodeon** (Kids) — ⏱️ TIMEOUT  
   `http://tvsen7.aynascope.net/nicklodean/index.m3u8`
-- **Asianet** (Malayalam) — ❌ HTTP 403  
+- **Asianet** (Malayalam) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **DD Malayalam** (Malayalam) — ❌ HTTP 404  
   `https://cdn-3.pishow.tv/live/27/master.m3u8`
