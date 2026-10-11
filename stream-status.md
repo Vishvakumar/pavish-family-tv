@@ -1,12 +1,12 @@
 ## Stream Health Report
 
-**24/55 streams online** — checked 2026-10-04 12:01 UTC
+**20/55 streams online** — checked 2026-10-11 12:23 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
 | Favourites | Al Jazeera English | ✅ OK |
 | Favourites | Asianet | ❌ HTTP 404 |
-| Favourites | BBC News | ✅ OK |
+| Favourites | BBC News | ❌ HTTP 403 |
 | Favourites | BBC One HD | ❌ HTTP 403 |
 | Favourites | CBeebies HD | ❌ HTTP 403 |
 | Favourites | Star Vijay HD | ⏱️ TIMEOUT |
@@ -15,7 +15,7 @@
 | Kids | Disney Junior | ⏱️ TIMEOUT |
 | Kids | Nick HD+ | ⏱️ TIMEOUT |
 | Kids | Nick Jr. | ❌ HTTP 404 |
-| Kids | Nickelodeon | ⏱️ TIMEOUT |
+| Kids | Nickelodeon | ✅ OK |
 | Malayalam | Amrita TV | ✅ OK |
 | Malayalam | Asianet | ❌ HTTP 404 |
 | Malayalam | Asianet News | ✅ OK |
@@ -36,7 +36,7 @@
 | News | Aaj Tak | ✅ OK |
 | News | Al Jazeera English | ✅ OK |
 | News | DW English | ✅ OK |
-| News | Euronews English | ✅ OK |
+| News | Euronews English | ❌ HTTP 403 |
 | News | France 24 English | ✅ OK |
 | News | India Today | ✅ OK |
 | News | NDTV 24x7 | ✅ OK |
@@ -50,20 +50,22 @@
 | Tamil | Star Vijay HD | ⏱️ TIMEOUT |
 | Tamil | Zee Tamil News | ✅ OK |
 | UK | BBC Four HD | ❌ HTTP 403 |
-| UK | BBC News | ✅ OK |
+| UK | BBC News | ❌ HTTP 403 |
 | UK | BBC One HD | ❌ HTTP 403 |
 | UK | BBC Three HD | ❌ HTTP 403 |
 | UK | BBC Two HD | ❌ HTTP 403 |
-| UK | Channel 5 | ❌ DEAD |
+| UK | Channel 5 | ❌ HTTP 403 |
 | UK | GB News | ✅ OK |
-| UK | ITV1 | ✅ OK |
-| UK | ITV2 HD | ❌ HTTP 404 |
-| UK | Sky News | ✅ OK |
+| UK | ITV1 | ❌ HTTP 403 |
+| UK | ITV2 HD | ❌ HTTP 403 |
+| UK | Sky News | ❌ HTTP 403 |
 
-### Dead / unreachable streams (31)
+### Dead / unreachable streams (35)
 
 - **Asianet** (Favourites) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
+- **BBC News** (Favourites) — ❌ HTTP 403  
+  `https://xemzi.short.gy/1000015`
 - **BBC One HD** (Favourites) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
 - **CBeebies HD** (Favourites) — ❌ HTTP 403  
@@ -80,8 +82,6 @@
   `http://116.90.120.157:8000/play/a0i3/index.m3u8`
 - **Nick Jr.** (Kids) — ❌ HTTP 404  
   `http://40.160.24.55/NICK_JR/index.m3u8`
-- **Nickelodeon** (Kids) — ⏱️ TIMEOUT  
-  `http://tvsen7.aynascope.net/nicklodean/index.m3u8`
 - **Asianet** (Malayalam) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **DD Malayalam** (Malayalam) — ❌ HTTP 404  
@@ -104,6 +104,8 @@
   `http://103.72.101.252:8080/live/248.m3u8`
 - **Music India** (Music) — ❌ HTTP 404  
   `https://cdn-2.pishow.tv/live/226/master.m3u8`
+- **Euronews English** (News) — ❌ HTTP 403  
+  `https://jmp2.uk/plu-61de96114757070008d33cae.m3u8`
 - **Colors Tamil HD** (Tamil) — ⏱️ TIMEOUT  
   `http://103.72.101.252:8080/live/429.m3u8`
 - **Jaya Max** (Tamil) — ⏱️ TIMEOUT  
@@ -114,13 +116,19 @@
   `http://149.71.34.166:8000/play/a06i/index.m3u8`
 - **BBC Four HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.m3u8`
+- **BBC News** (UK) — ❌ HTTP 403  
+  `https://xemzi.short.gy/1000015`
 - **BBC One HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8`
 - **BBC Three HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.m3u8`
 - **BBC Two HD** (UK) — ❌ HTTP 403  
   `https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8`
-- **Channel 5** (UK) — ❌ DEAD  
+- **Channel 5** (UK) — ❌ HTTP 403  
   `https://xemzi.short.gy/1000030`
-- **ITV2 HD** (UK) — ❌ HTTP 404  
+- **ITV1** (UK) — ❌ HTTP 403  
+  `https://xemzi.short.gy/1000011`
+- **ITV2 HD** (UK) — ❌ HTTP 403  
   `https://xemzi.short.gy/1000012`
+- **Sky News** (UK) — ❌ HTTP 403  
+  `https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8`
