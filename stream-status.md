@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**20/55 streams online** — checked 2026-10-11 12:23 UTC
+**22/55 streams online** — checked 2026-10-18 10:39 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -36,7 +36,7 @@
 | News | Aaj Tak | ✅ OK |
 | News | Al Jazeera English | ✅ OK |
 | News | DW English | ✅ OK |
-| News | Euronews English | ❌ HTTP 403 |
+| News | Euronews English | ✅ OK |
 | News | France 24 English | ✅ OK |
 | News | India Today | ✅ OK |
 | News | NDTV 24x7 | ✅ OK |
@@ -58,9 +58,9 @@
 | UK | GB News | ✅ OK |
 | UK | ITV1 | ❌ HTTP 403 |
 | UK | ITV2 HD | ❌ HTTP 403 |
-| UK | Sky News | ❌ HTTP 403 |
+| UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (35)
+### Dead / unreachable streams (33)
 
 - **Asianet** (Favourites) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -104,8 +104,6 @@
   `http://103.72.101.252:8080/live/248.m3u8`
 - **Music India** (Music) — ❌ HTTP 404  
   `https://cdn-2.pishow.tv/live/226/master.m3u8`
-- **Euronews English** (News) — ❌ HTTP 403  
-  `https://jmp2.uk/plu-61de96114757070008d33cae.m3u8`
 - **Colors Tamil HD** (Tamil) — ⏱️ TIMEOUT  
   `http://103.72.101.252:8080/live/429.m3u8`
 - **Jaya Max** (Tamil) — ⏱️ TIMEOUT  
@@ -130,5 +128,3 @@
   `https://xemzi.short.gy/1000011`
 - **ITV2 HD** (UK) — ❌ HTTP 403  
   `https://xemzi.short.gy/1000012`
-- **Sky News** (UK) — ❌ HTTP 403  
-  `https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8`
