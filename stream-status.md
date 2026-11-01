@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**22/55 streams online** — checked 2026-10-25 10:59 UTC
+**21/55 streams online** — checked 2026-11-01 12:54 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -15,7 +15,7 @@
 | Kids | Disney Junior | ⏱️ TIMEOUT |
 | Kids | Nick HD+ | ⏱️ TIMEOUT |
 | Kids | Nick Jr. | ❌ HTTP 404 |
-| Kids | Nickelodeon | ✅ OK |
+| Kids | Nickelodeon | ⏱️ TIMEOUT |
 | Malayalam | Amrita TV | ✅ OK |
 | Malayalam | Asianet | ❌ HTTP 404 |
 | Malayalam | Asianet News | ✅ OK |
@@ -60,7 +60,7 @@
 | UK | ITV2 HD | ❌ HTTP 403 |
 | UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (33)
+### Dead / unreachable streams (34)
 
 - **Asianet** (Favourites) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -82,6 +82,8 @@
   `http://116.90.120.157:8000/play/a0i3/index.m3u8`
 - **Nick Jr.** (Kids) — ❌ HTTP 404  
   `http://40.160.24.55/NICK_JR/index.m3u8`
+- **Nickelodeon** (Kids) — ⏱️ TIMEOUT  
+  `http://tvsen7.aynascope.net/nicklodean/index.m3u8`
 - **Asianet** (Malayalam) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
 - **DD Malayalam** (Malayalam) — ❌ HTTP 404  
