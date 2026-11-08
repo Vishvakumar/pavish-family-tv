@@ -1,6 +1,6 @@
 ## Stream Health Report
 
-**21/55 streams online** — checked 2026-11-01 12:54 UTC
+**20/55 streams online** — checked 2026-11-08 12:59 UTC
 
 | Group | Channel | Status |
 |-------|---------|--------|
@@ -26,7 +26,7 @@
 | Malayalam | Manorama News | ❌ HTTP 404 |
 | Malayalam | Mathrubhumi News | ✅ OK |
 | Malayalam | Mazhavil Manorama | ❌ HTTP 404 |
-| Music | 7S Music | ✅ OK |
+| Music | 7S Music | ❌ HTTP 403 |
 | Music | 9XM | ❌ HTTP 404 |
 | Music | Aaryaa TV | ✅ OK |
 | Music | B4U Music | ❌ HTTP 404 |
@@ -60,7 +60,7 @@
 | UK | ITV2 HD | ❌ HTTP 403 |
 | UK | Sky News | ✅ OK |
 
-### Dead / unreachable streams (34)
+### Dead / unreachable streams (35)
 
 - **Asianet** (Favourites) — ❌ HTTP 404  
   `https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8`
@@ -98,6 +98,8 @@
   `https://mmtvnews.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8`
 - **Mazhavil Manorama** (Malayalam) — ❌ HTTP 404  
   `https://cdn-3.pishow.tv/live/1479/master.m3u8`
+- **7S Music** (Music) — ❌ HTTP 403  
+  `https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8`
 - **9XM** (Music) — ❌ HTTP 404  
   `https://epiconvh.akamaized.net/live/9XM/master.m3u8`
 - **B4U Music** (Music) — ❌ HTTP 404  
